@@ -13,7 +13,7 @@ function App() {
     setSuccess(null);
     setError(null);
     try {
-      const response = await fetch('http://localhost:5000/send-sms', {
+      const response = await fetch('https://backend-sms-gwz3.onrender.com/send-sms', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
